@@ -13,3 +13,11 @@ for level in range(1, Levels + 1):
     
     # Add a new line after each level with print()
 
+'''
+Levels = int(input())
+
+for level in range(1, Levels + 1):
+    for i in range(1, level + 1):
+        print(i, end=" ")
+    print()
+'''

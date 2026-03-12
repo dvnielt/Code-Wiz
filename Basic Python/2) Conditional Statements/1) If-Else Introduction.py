@@ -8,3 +8,11 @@ if temp < 0:
 
 # If the temperature is above 0, print "No, it’s tropical weather!"
 
+'''
+temp = int(input())
+if temp < 0:
+    print("Yes, it’s freezing!")
+
+if temp > 0:
+    print("No, it’s tropical weather!")
+'''

@@ -1,17 +1,18 @@
-# Create a Total variable and set it to 0
-Total = 
+# Take an integer input
+a = 
 
-# Make a for loop that repeats 10 times
+# Create a sum variable and set it to 0
 
+# Make a for loop that repeats a+1 times
 
-    # On each loop, add the input number to the total
+    # Add i cubed to the sum variable (i**3)
 
+# Print the Final Sum
 
-    # Calculate the cube of the number (number * number * number)
-
-
-    # Add the cube to the total
-
-
-# Print the Final Total
-
+'''
+a = int(input())
+sum = 0
+for i in range(a+1):
+  sum += (i**3)
+print(sum)
+'''

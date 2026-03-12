@@ -29,3 +29,17 @@ N =
 
 # Print the Final Total
 
+'''
+def factorial(number):
+    product = 1
+    for num in range(1, number+1):
+        product *= num
+    return product
+
+Total = 0
+N = int(input())
+for i in range(N):
+    value = int(input())
+    Total += factorial(value)
+print(Total)
+'''

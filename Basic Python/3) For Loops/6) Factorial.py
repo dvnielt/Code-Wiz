@@ -29,3 +29,25 @@ def factorial(number):
 # Now, let's test out the factorial function
 answer = factorial(number)
 print(answer)
+
+'''
+def triple(number):
+    total = number * 3
+    return total
+
+number = int(input())
+new_number = triple(number)
+print(new_number)
+
+def factorial(number):
+    product = 1
+    for num in range(1, number+1):
+        product *= num
+    return product
+
+
+answer = factorial(number)
+print(answer)
+
+
+'''
